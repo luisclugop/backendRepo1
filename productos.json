@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "product":"lapiz",
+        "price":20
+    },
+    {
+        "id":2,
+        "product":"lapicero",
+        "price":25
+    },
+    {
+        "id":3,
+        "product":"pluma",
+        "price":30
+    }
+]

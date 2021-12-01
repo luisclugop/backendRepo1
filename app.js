@@ -3,12 +3,14 @@ const express = require("express");
 const Contenedor = require('./Contenedor.js');
 
 const app = express()
-const port = 8080
+// const port = 8080
 const contenedor = new Contenedor()
 
-app.listen(port, () => {
-    console.log(`Servidor corriendo en el puerto ${port}`)
-})
+// app.listen(port, () => {
+//     console.log(`Servidor corriendo en el puerto ${port}`)
+// })
+
+app.listen(process.env.PORT || 8080)
 
 app.get('/', (request, response) => {
     response.send("Bienvenido al puerto 8080")
